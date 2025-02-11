@@ -15,7 +15,7 @@
 
 This package contains several tools for solving and advancing (large-scale) dynamical systems with constraints. These systems generically have the form
 
-$$\ddt{y} = L u - B_{1}^{T} z + r_{1}(y,t), \quad B_{2} y = r_{2}(t), \quad y(0) = y_{0}$$
+$$\ddt{y} = L y - B_{1}^{T} z + r_{1}(y,t), \quad B_{2} y = r_{2}(t), \quad y(0) = y_{0}$$
 
 where $y$ is a state vector, $L$ is a linear operator with an associated matrix exponential (integrating factor), and $z$ is a constraint force vector (i.e., Lagrange multipliers). Systems of this type might arise from, e.g., incompressible fluid dynamics, rigid-body mechanics,
 or couplings of such systems.
